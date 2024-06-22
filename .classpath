@@ -13,5 +13,6 @@
 	<classpathentry kind="lib" path="D:/Selenium WebDriver/WebDriverManager/webdrivermanager-5.8.0.jar"/>
 	<classpathentry kind="lib" path="D:/Apache Jar File/commons-io-2.16.1.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium WebDriver/fileUtil_jar/commons-io-2.16.1.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

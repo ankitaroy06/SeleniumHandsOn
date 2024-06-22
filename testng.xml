@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG_Tutorial">
+  <test name="Test">
+    <classes>
+      <class name="TestNG.HelloWorld">
+      <!--if we want include any particular methods from excuting. We can follow below code*/-->
+      <methods>
+		<include name="Demo"/>
+	  </methods>
+	  </class>
+      <class name="TestNG.Program2"/>
+    </classes>
+  </test>
+  
+  
+  <test name="World Detail">
+    <classes>
+      <class name="TestNG.detail">
+		<!--if we want exclude any particular methods from excuting. We can follow below code*/-->
+      	<methods>			
+			<exclude name="ask_city"/>
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  
+  
+  <test name="Days of a week">
+    <classes>
+      <class name="TestNG.day">
+		<!--if we want exclude any methods which are having same String class name, i.e, Regex Expression. We can follow below code*/-->
+      	<methods>			
+			<exclude name="day.*"/>
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  
+  <!-- How to create new TestNg XML file?
+  1. Right click on the existing XML file. 
+  2. Select copy.
+  3. Go to the Project Name and right click on the project name.
+  4. Select Paste option.
+  5. Give required name to your file, on the poup. -->
+  
+</suite>
