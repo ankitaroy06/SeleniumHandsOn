@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Program7">
+      <class name="JavaMiscellaneous.Inheritance_ChildClass">
         <methods>
-          <include name="method_1"/>
+          <include name="ParentMethod_1"/>
+          <include name="ParentMethod_2"/>
+          <include name="ChildMethod_1"/>
         </methods>
-      </class> <!-- TestNG.Program7 -->
+      </class> <!-- JavaMiscellaneous.Inheritance_ChildClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
